@@ -1,0 +1,503 @@
+[
+  {
+    "id": "faq-001",
+    "title": "What is IEEE Computer Society at VIT?",
+    "text": "IEEE Computer Society, VIT is a student branch of the Madras Section of IEEE Region 10, formed in February 2012, that organizes technical events, workshops, hackathons, and projects to empower innovation."  
+  },
+  {
+    "id": "faq-002",
+    "title": "When was IEEE Computer Society VIT formed?",
+    "text": "The IEEE Computer Society student branch at VIT was formed in February 2012."  
+  },
+  {
+    "id": "faq-003",
+    "title": "Which IEEE region and section does IEEE-CS VIT belong to?",
+    "text": "It belongs to the Madras Section of IEEE Region 10."  
+  },
+  {
+    "id": "faq-004",
+    "title": "What are the key activities of IEEE-CS VIT?",
+    "text": "IEEE-CS VIT conducts workshops, hackathons, technical talks, mentoring sessions, and also supports projects and research publications."  
+  },
+  {
+    "id": "faq-005",
+    "title": "How many hackathons has IEEE-CS VIT conquered?",
+    "text": "The chapter has conquered 22+ hackathons, including those organized by NASA, AngelHack, and PayPal."  
+  },
+  {
+    "id": "faq-006",
+    "title": "What awards has IEEE-CS VIT received?",
+    "text": "IEEE-CS VIT has been named 'Most Outstanding Student Chapter' twice—in 2017 and 2019 at the All India IEEE Computer Society Student & Young Professional Congress."  
+  },
+  {
+    "id": "faq-007",
+    "title": "Have any members of IEEE-CS VIT received scholarships?",
+    "text": "Yes—3 of its members have received the prestigious Richard E. Merwin Scholarship for their contributions."  
+  },
+  {
+    "id": "faq-008",
+    "title": "Has IEEE-CS VIT been involved in international events?",
+    "text": "Yes—members represented India at CanSat-18 and the European Rover Challenge ’18 organized by the European Space Agency."  
+  },
+  {
+    "id": "faq-009",
+    "title": "What kind of research output has IEEE-CS VIT produced?",
+    "text": "They have published 23 research papers, of which 2 were featured in IEEE journals."  
+  },
+  {
+    "id": "faq-010",
+    "title": "What support does IEEE-CS VIT provide to official IEEE events?",
+    "text": "They supply proactive volunteers to IEEE events such as YESIST12, WIE PBL, IEEE Compute, TechX ’19 (IEEE Kolkata Section), and IEEE IPL."  
+  },
+  {
+    "id": "faq-011",
+    "title": "Have IEEE-CS VIT members held leadership roles in other events?",
+    "text": "Yes—members have served as team leads for events like IEEE CSIS, AICSSYC ’19, and STEP ’20 IEEE Madras Section."  
+  },
+  {
+    "id": "faq-012",
+    "title": "Who is the Chairperson of IEEE-CS VIT?",
+    "text": "The current chairperson is Ram Krishna."  
+  },
+  {
+    "id": "faq-013",
+    "title": "Who holds key positions in the IEEE-CS VIT team?",
+    "text": "Vice Chairperson: Anubhav Batra; Secretary: Aditya Verma; Co-Secretary: Arjun Bector; Technical Head: Ansh Mehta; Projects Head: Akshit Anand; Events Head: Dhriti Sharma; Publicity Head: Varun Shirsath; Design Head: Parth Jadhav; R&D Head: Gouri Kanade; Web Lead: Medhansh Jain; App Lead: Krish Mehta; IoT Lead: Arya Patil."  
+  },
+  {
+    "id": "faq-014",
+    "title": "How many hackathon wins has IEEE-CS VIT achieved?",
+    "text": "IEEE-CS VIT has more than 15 hackathon wins."  
+  },
+  {
+    "id": "faq-015",
+    "title": "How many Merwin Scholars has IEEE-CS VIT produced?",
+    "text": "They have had 3 Merwin Scholars."  
+  },
+  {
+    "id": "faq-016",
+    "title": "How many times has IEEE-CS VIT been named Best Chapter?",
+    "text": "The chapter has received 2 Best Chapter Awards."  
+  },
+  {
+    "id": "faq-017",
+    "title": "What is Assignofast by IEEE-CS VIT?",
+    "text": "Assignofast is a smart app/extension developed by IEEE-CS VIT to help students manage deadlines by syncing assignments and timetable from VTOP and sending timely reminders."  
+  },
+  {
+    "id": "faq-018",
+    "title": "How does Assignofast sync assignments?",
+    "text": "It syncs digital assignments and timetable automatically whenever you log in to VTOP or when a new semester begins."  
+  },
+  {
+    "id": "faq-019",
+    "title": "Are submissions on VITian auto-updated on Assignofast?",
+    "text": "No—a submission via VITian is not automatically reflected; you must log in to VTOP to trigger the update."  
+  },
+  {
+    "id": "faq-020",
+    "title": "What features does Assignofast offer for personal task management?",
+    "text": "It allows adding personal tasks, categorizing them, and setting reminders for both academic and non-academic chores."  
+  },
+  {
+    "id": "faq-021",
+    "title": "What is ARCS organized by IEEE-CS VIT?",
+    "text": "ARCS is the flagship annual event of IEEE-CS VIT, featuring high-energy hackathons and technical hunts like HackBattle and Cicada."  
+  },
+  {
+    "id": "faq-022",
+    "title": "What are HackBattle and Cicada in ARCS’24?",
+    "text": "HackBattle is a 36-hour hackathon, and Cicada 3310 is a technical hunt—both flagship events under ARCS’24 encouraging problem-solving and innovation."  
+  },
+  {
+    "id": "faq-023",
+    "title": "When and where were HackBattle and Cicada held in ARCS’24?",
+    "text": "HackBattle took place on 25–26 September at Anna Auditorium; Cicada 3310 was on 22 September at TT Voc."  
+  },
+  {
+    "id": "faq-024",
+    "title": "What was the price for participating in ARCS’24 events?",
+    "text": "HackBattle had a registration fee of ₹250, while Cicada 3310 was priced at ₹200."  
+  },
+  {
+    "id": "faq-025",
+    "title": "Why should one attend ARCS events?",
+    "text": "They offer electrifying hackathons, keynote sessions, tech challenges, networking, and a fun, high-energy environment to grow technical and Soft skills."  
+  },
+  {
+    "id": "faq-026",
+    "title": "Is Hack4Impact free?",
+    "text": "Hack4Impact is completely free for all participants."  
+  },
+  {
+    "id": "faq-027",
+    "title": "What are the problem themes for Hack4Impact?",
+    "text": "All problem statements for Hack4Impact are based on SDG 4: Quality Education."  
+  },
+  {
+    "id": "faq-028",
+    "title": "Who can participate in Hack4Impact?",
+    "text": "Students from all years are welcome to participate in Hack4Impact."  
+  },
+  {
+    "id": "faq-029",
+    "title": "What is the team size for Hack4Impact?",
+    "text": "Teams for Hack4Impact must have between 2 and 4 members."  
+  },
+  {
+    "id": "faq-030",
+    "title": "What are the benefits of Hack4Impact?",
+    "text": "Participants can gain learning, overcome challenges, collaborate, network, and win SWAGs."  
+  },
+  {
+    "id": "faq-031",
+    "title": "Are there prerequisites for Hack4Impact?",
+    "text": "Coding experience is a plus; however, strong presentation skills and creative ideas are also valued."  
+  },
+  {
+    "id": "faq-032",
+    "title": "Will there be refreshments at Hack4Impact?",
+    "text": "Yes, delicious food and beverages will be provided throughout the event."  
+  },
+  {
+    "id": "faq-033",
+    "title": "What is Assignofast?",
+    "text": "Assignofast is an app/extension developed by IEEE-CS VIT to help manage assignment deadlines by syncing with the VTOP portal."  
+  },
+  {
+    "id": "faq-034",
+    "title": "How does Assignofast sync assignments?",
+    "text": "Assignments and timetables are synced automatically after each VTOP login or when a new semester starts."  
+  },
+  {
+    "id": "faq-035",
+    "title": "Do DA submissions via VITian update Assignofast?",
+    "text": "No—DA submissions via VITian only update Assignofast when you log in to VTOP."  
+  },
+  {
+    "id": "faq-036",
+    "title": "Can I use my personal email with Assignofast?",
+    "text": "No—you must sign in using your VIT email ID."  
+  },
+  {
+    "id": "faq-037",
+    "title": "Are personal tasks preserved after reinstalling Assignofast?",
+    "text": "No—personal tasks are stored locally and will not persist if the app is deleted and reinstalled."  
+  },
+  {
+    "id": "faq-038",
+    "title": "What devices support Assignofast?",
+    "text": "Assignofast is available on Chrome Web Store, App Store, and Google Play."  
+  },
+  {
+    "id": "faq-039",
+    "title": "What is HackBattle?",
+    "text": "HackBattle is a 36-hour hackathon organized by IEEE-CS VIT as part of the ARCS flagship events."  
+  },
+  {
+    "id": "faq-040",
+    "title": "What tracks are available in HackBattle?",
+    "text": "HackBattle features tracks such as Game, Fintech, Healthcare, Open Innovation, SDG, and IoT."  
+  },
+  {
+    "id": "faq-041",
+    "title": "Who is the speaker at HackBattle?",
+    "text": "Mr. Savinder Puri is featured as an industry expert speaker."  
+  },
+  {
+    "id": "faq-042",
+    "title": "How do I register for HackBattle?",
+    "text": "You can register for HackBattle via the official Gravitas website."  
+  },
+  {
+    "id": "faq-043",
+    "title": "What is the team size for HackBattle?",
+    "text": "Team size for HackBattle should be between 3 to 6 members."  
+  },
+  {
+    "id": "faq-044",
+    "title": "Can I participate in HackBattle without a team?",
+    "text": "Yes—unpaired participants will be grouped with others before the event begins."  
+  },
+  {
+    "id": "faq-045",
+    "title": "Will there be sessions during HackBattle?",
+    "text": "Yes—an expert-led tech talk and engaging activities are included during HackBattle."  
+  },
+  {
+    "id": "faq-046",
+    "title": "Are there breaks during HackBattle?",
+    "text": "Yes—scheduled breaks are provided for breakfast, lunch, and dinner."  
+  },
+  {
+    "id": "faq-047",
+    "title": "What essentials should I bring to HackBattle?",
+    "text": "Bring your laptop, charger, water bottle, power bank, extension cord, and VIT ID card."  
+  },
+  {
+    "id": "faq-048",
+    "title": "Will OD (On Duty) be provided at HackBattle?",
+    "text": "Yes—participants will receive OD and ID cards will be scanned periodically."  
+  },
+  {
+    "id": "faq-049",
+    "title": "Is HackBattle fresher-friendly?",
+    "text": "Yes—freshers are welcome and mentored by seniors, though seniors do not assist directly with projects."  
+  },
+  {
+    "id": "faq-050",
+    "title": "What is ARCS?",
+    "text": "ARCS is the flagship multi-day event by IEEE-CS VIT, featuring HackBattle and Cicada."  
+  },
+  {
+    "id": "faq-051",
+    "title": "When is HackBattle held in ARCS’24?",
+    "text": "HackBattle was held on 25–26 September at Anna Auditorium."  
+  },
+  {
+    "id": "faq-052",
+    "title": "When is Cicada 3310 held in ARCS’24?",
+    "text": "Cicada 3310 took place on 22 September at TT Voc as part of ARCS’24."  
+  },
+  {
+    "id": "faq-053",
+    "title": "What is Cicada 3310?",
+    "text": "Cicada 3310 is a technical hunt featured as part of the ARCS flagship event."  
+  },
+  {
+    "id": "faq-054",
+    "title": "How much does it cost to attend HackBattle?",
+    "text": "Registration for HackBattle cost ₹250."  
+  },
+  {
+    "id": "faq-055",
+    "title": "How much does it cost to join Cicada 3310?",
+    "text": "Registration for Cicada 3310 cost ₹200."  
+  },
+  {
+    "id": "faq-056",
+    "title": "Why should I attend ARCS events?",
+    "text": "ARCS events offer thrilling hackathons, technical hunts, networking, keynote sessions, and a creative environment."  
+  },
+  {
+    "id": "faq-057",
+    "title": "Where can I find IEEE-CS VIT’s GitHub?",
+    "text": "IEEE-CS VIT hosts 74 repositories on GitHub, including projects like Assignofast and gravitas-premier-league."  
+  },
+  {
+    "id": "faq-058",
+    "title": "What kinds of projects are on IEEE-CS VIT’s GitHub?",
+    "text": "You’ll find various projects including extensions, portals like Core Committee Selection, and frontend/backend systems."  
+  }, 
+  {
+    "id": "faq-059",
+    "title": "Where can I register for HackBattle?",
+    "text": "You can register for HackBattle on the official Gravitas website."  
+  },
+  {
+    "id": "faq-060",
+    "title": "What is the team size for HackBattle?",
+    "text": "The team size should be between 3 to 6 members."  
+  },
+  {
+    "id": "faq-061",
+    "title": "What should I do if I don’t have a team for HackBattle?",
+    "text": "If you don’t have a team before the event, we’ll pair you with others who also are without a team before HackBattle begins."  
+  },
+  {
+    "id": "faq-062",
+    "title": "Will there be any sessions during HackBattle?",
+    "text": "Yes—there will be a tech talk by an industry expert and some fun activities to keep the energy high!"  
+  },
+  {
+    "id": "faq-063",
+    "title": "Will there be breaks during the event?",
+    "text": "Yes—scheduled breaks will be provided for breakfast, lunch, and dinner."  
+  },
+  {
+    "id": "faq-064",
+    "title": "What should I bring to HackBattle?",
+    "text": "Be sure to bring your laptop, charger, water bottle, power bank, extension cord, and ID card to stay prepared throughout the event."  
+  },
+  {
+    "id": "faq-065",
+    "title": "Will students get OD (On Duty) for attending HackBattle?",
+    "text": "Yes—students will receive OD, and ID cards will be scanned at regular intervals during the event."  
+  },
+  {
+    "id": "faq-066",
+    "title": "Is HackBattle fresher-friendly?",
+    "text": "Yes—freshers are welcome! Seniors will be available to guide you, though they won’t assist directly with projects."  
+  }, 
+  {
+    "id": "faq-067",
+    "title": "What are the tracks in HackBattle?",
+    "text": "HackBattle includes tracks such as Healthcare, Fintech, Game Development, IoT, Open Innovation, and SDGs."
+  },
+  {
+    "id": "faq-068",
+    "title": "How long does HackBattle last?",
+    "text": "HackBattle is a 36-hour continuous hackathon."
+  },
+  {
+    "id": "faq-069",
+    "title": "How are projects judged at HackBattle?",
+    "text": "Projects are evaluated based on innovation, technical implementation, impact, and presentation."
+  },
+  {
+    "id": "faq-070",
+    "title": "Are there prizes for HackBattle winners?",
+    "text": "Yes—winners receive cash prizes, goodies, and industry recognition."
+  },
+  {
+    "id": "faq-071",
+    "title": "Do I need to submit code during HackBattle?",
+    "text": "Yes—final submissions must include source code, documentation, and a demo."
+  },
+  {
+    "id": "faq-072",
+    "title": "Can I work on existing projects for HackBattle?",
+    "text": "No—all projects must be developed from scratch during the event."
+  },
+  {
+    "id": "faq-073",
+    "title": "What is the judging process at HackBattle?",
+    "text": "Mentors first shortlist projects, followed by final evaluation by a panel of judges."
+  },
+  {
+    "id": "faq-074",
+    "title": "Are mentors available during HackBattle?",
+    "text": "Yes—experienced mentors are available to guide participants throughout the hackathon."
+  },
+  {
+    "id": "faq-075",
+    "title": "Does HackBattle allow cross-year teams?",
+    "text": "Yes—teams can be formed across different years and departments."
+  },
+  {
+    "id": "faq-076",
+    "title": "What is Hack4Impact?",
+    "text": "Hack4Impact is a hackathon focused on solving social problems with technology, emphasizing SDG goals."
+  },
+  {
+    "id": "faq-077",
+    "title": "What is the main theme of Hack4Impact?",
+    "text": "Hack4Impact ’24 focuses on UN Sustainable Development Goal 4: Quality Education."
+  },
+  {
+    "id": "faq-078",
+    "title": "How long does Hack4Impact last?",
+    "text": "Hack4Impact is a 24-hour hackathon."
+  },
+  {
+    "id": "faq-079",
+    "title": "Are there mentors at Hack4Impact?",
+    "text": "Yes—mentors help teams brainstorm and refine their solutions."
+  },
+  {
+    "id": "faq-080",
+    "title": "Are Hack4Impact projects restricted to software?",
+    "text": "No—projects can include hardware, software, or hybrid solutions."
+  },
+  {
+    "id": "faq-081",
+    "title": "What are the submission requirements for Hack4Impact?",
+    "text": "Teams must submit source code, project documentation, and a presentation."
+  },
+  {
+    "id": "faq-082",
+    "title": "Is Hack4Impact competitive or collaborative?",
+    "text": "It is both—a competition that encourages collaboration and teamwork."
+  },
+  {
+    "id": "faq-083",
+    "title": "Does Hack4Impact provide certificates?",
+    "text": "Yes—participants and winners receive certificates."
+  },
+  {
+    "id": "faq-084",
+    "title": "Does Assignofast remind about classes?",
+    "text": "Yes—Assignofast syncs and reminds students about class schedules and assignments."
+  },
+  {
+    "id": "faq-085",
+    "title": "Can I set custom reminders on Assignofast?",
+    "text": "Yes—users can set personal reminders for deadlines and tasks."
+  },
+  {
+    "id": "faq-086",
+    "title": "Does Assignofast work offline?",
+    "text": "No—an internet connection is required to sync data from VTOP."
+  },
+  {
+    "id": "faq-087",
+    "title": "Is Assignofast secure?",
+    "text": "Yes—Assignofast uses your VIT credentials securely to fetch assignments."
+  },
+  {
+    "id": "faq-088",
+    "title": "Does Assignofast support notifications?",
+    "text": "Yes—notifications alert students about upcoming deadlines."
+  },
+  {
+    "id": "faq-089",
+    "title": "What is ARCS?",
+    "text": "ARCS is IEEE-CS VIT’s flagship annual fest featuring hackathons, hunts, workshops, and speaker sessions."
+  },
+  {
+    "id": "faq-090",
+    "title": "Does ARCS include workshops?",
+    "text": "Yes—ARCS hosts hands-on technical workshops across domains like AI, blockchain, and web development."
+  },
+  {
+    "id": "faq-091",
+    "title": "Who are the speakers at ARCS?",
+    "text": "ARCS invites industry leaders and researchers for keynote talks and panel discussions."
+  },
+  {
+    "id": "faq-092",
+    "title": "Are ARCS events open to non-VIT students?",
+    "text": "Some events are open to all, while certain competitions may be restricted to VIT students."
+  },
+  {
+    "id": "faq-093",
+    "title": "Can I participate in multiple ARCS events?",
+    "text": "Yes—participants can register for more than one ARCS event depending on schedule and eligibility."
+  },
+  {
+    "id": "faq-094",
+    "title": "Does ARCS provide networking opportunities?",
+    "text": "Yes—ARCS allows students to connect with industry professionals and fellow innovators."
+  },
+  {
+    "id": "faq-095",
+    "title": "What are the membership benefits of IEEE-CS VIT?",
+    "text": "Members gain access to exclusive workshops, research mentorship, project opportunities, and scholarships."
+  },
+  {
+    "id": "faq-096",
+    "title": "How do I join IEEE-CS VIT?",
+    "text": "Students can join by attending orientation or signing up through the student portal after paying membership dues."
+  },
+  {
+    "id": "faq-097",
+    "title": "Do IEEE-CS VIT members get priority in events?",
+    "text": "Yes—members often get early access and discounts for events."
+  },
+  {
+    "id": "faq-098",
+    "title": "Does IEEE-CS VIT collaborate with industry?",
+    "text": "Yes—IEEE-CS VIT frequently collaborates with companies to host talks, hackathons, and mentorships."
+  },
+  {
+    "id": "faq-099",
+    "title": "Can IEEE-CS VIT members publish research?",
+    "text": "Yes—the society encourages members to publish in IEEE journals and supports research paper writing."
+  },
+  {
+    "id": "faq-100",
+    "title": "How can I contact IEEE-CS VIT?",
+    "text": "You can reach out via their website contact form, email, or official social media handles."
+  }
+
+]
