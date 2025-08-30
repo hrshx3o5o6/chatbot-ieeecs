@@ -2,9 +2,7 @@ import json
 from rapidfuzz import process, fuzz
 from llama_cpp import Llama
 
-# -------------------------------
-# Load FAQ Data
-# -------------------------------
+
 with open("cag_data/faq_raw.json", "r") as f:
     faq_data = json.load(f)
 
@@ -15,7 +13,7 @@ answer_cache = {}
 def get_faq_answer(user_query, threshold=60):
     """checking all FAQ"""
     matches = process.extract(
-        user_query, faq_questions, scorer=fuzz.token_set_ratio, limit=5
+        user_query, faq_questions, scorer=fuzz.token_set_ratio, limit=5, score_cutoff=60
     )
     results=[]
     for match, score, idx in matches:
@@ -28,14 +26,13 @@ def get_faq_answer(user_query, threshold=60):
     print("FAQ Matches:", results)
     return get_llm_response_with_context(user_query, results) if results else get_llm_response(user_query)
 
-# -------------------------------
-# Load Local Gemma Model
-# -------------------------------
+
+
 llm = Llama(
     model_path="/Users/Harsha/Library/Caches/llama.cpp/unsloth_gemma-3-270m-it-GGUF_gemma-3-270m-it-Q4_K_M.gguf",
     n_ctx=2048,
-    n_threads=8,   # adjust based on your CPU
-    n_batch=256,   # adjust for performance
+    n_threads=8,   
+    n_batch=256,   
 )
 
 def get_llm_response(user_query):
@@ -70,9 +67,6 @@ def get_llm_response_with_context(user_query, relevant_faqs):
     output = llm(prompt, max_tokens=256, echo=False)
     return output["choices"][0]["text"].strip()
 
-# -------------------------------
-# Hybrid CAG Chatbot
-# -------------------------------
 def check_cache(query):
     """Check if query is already cached (exact match)."""
     normalized_query = query.lower().strip()
@@ -84,26 +78,22 @@ def update_cache(query, answer):
     answer_cache[normalized_query] = answer
 
 def chatbot(user_query):
-    # 1. Check cache first
+    
     cached_answer = check_cache(user_query)
     if cached_answer:
         print("there is a cache hit")
         return f"[CACHED] {cached_answer}"
     
-    # 2. Check FAQ database
     faq_answer = get_faq_answer(user_query)
     if faq_answer:
         update_cache(user_query, faq_answer)   
         return f"[FAQ] {faq_answer}"
     
-    # 3. Fallback to LLM
     llm_answer = get_llm_response(user_query)
     update_cache(user_query, llm_answer)       
     return f"[LLM] {llm_answer}"
 
-# -------------------------------
-# CLI Loop
-# -------------------------------
+
 if __name__ == "__main__":
     print("FAQ + Conversational Chatbot (type 'exit' to quit)\n")
     while True:
