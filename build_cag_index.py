@@ -1,10 +1,11 @@
 import json
 import os
 from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 from llama_cpp import Llama
+from langchain_ollama import OllamaLLM
 
 
 with open("cag_data/hackbattle_doc.txt", "r") as f:
@@ -34,41 +35,47 @@ else:
     vector_store = FAISS.from_documents(documents, embedding_model)
     vector_store.save_local(INDEX_PATH)
 
-retriever = vector_store.as_retriever(search_kwargs={"k": 3})
+retriever = vector_store.as_retriever(search_kwargs={"k": 10})
 
 
-llm = Llama(
-    model_path="/Users/Harsha/Library/Caches/llama.cpp/unsloth_gemma-3-270m-it-GGUF_gemma-3-270m-it-Q4_K_M.gguf",
-    temperature=0,
-    n_ctx=2048,
-    n_threads=8,
-    n_batch=256,
-)
+# llm = Llama(
+#     model_path="/Users/Harsha/Library/Caches/llama.cpp/unsloth_gemma-3-270m-it-GGUF_gemma-3-270m-it-Q4_K_M.gguf",
+#     temperature=0,
+#     n_ctx=2048,
+#     n_threads=8,
+#     n_batch=256,
+# )
 
+llm = OllamaLLM(model="gemma3:270m", temperature=0)
 
 
 def get_llm_response(user_query, relevant_docs=None):
     if relevant_docs is None:
-        relevant_docs = retriever.get_relevant_documents(user_query)
+        relevant_docs = retriever.invoke(user_query)  # ✅ use invoke instead of deprecated get_relevant_documents
         print(f"Retrieved {len(relevant_docs)} documents.")
 
-    context = "\n".join([doc.page_content for doc in relevant_docs])
+    # Format context clearly
+    context = ""
+    for doc in relevant_docs:
+        context += f"Q: {doc.metadata.get('question', '')}\nA: {doc.page_content}\n\n"
 
     prompt = f"""
-You are a helpful assistant for IEEE-CS VIT.
-Use ONLY the following context to answer the user's question.
-If the answer is not in the context, reply exactly with: "I don't know."
-STRICTLY avoid any additional information not present in the context. when you don't know something
-then STRICTLY say "I don't know."
+You are a helpful assistant for IEEE-CS VIT. 
+Below are some frequently asked questions and their answers. 
+Answer the user's question using the context obtained from the document. 
+- If anything related to query asked is present, use it to construct your answer.
+- If the answer is not present, reply exactly: "I don't know."
 
-Context:
+Question context from document Context:
 {context}
 
-User: {user_query}
-Assistant:"""
+User's Question: {user_query}
 
-    output = llm(prompt, max_tokens=200, stop=["User:", "You:"], echo=False)
-    return output["choices"][0]["text"].strip()
+Answer the users query accordingly:
+"""
+
+    response = llm.invoke(prompt)
+    return response.strip()
 
 
 answer_cache = {}
@@ -89,6 +96,7 @@ def chatbot(user_query):
         return f"[CACHED] {cached_answer}"
 
     relevant_docs = retriever.get_relevant_documents(user_query)
+    # print(relevant_docs)
     answer = get_llm_response(user_query, relevant_docs)
     update_cache(user_query, answer)
     return f"[FAQ] {answer}"
