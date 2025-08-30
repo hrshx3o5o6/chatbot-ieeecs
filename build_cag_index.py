@@ -7,17 +7,19 @@ from langchain.schema import Document
 from llama_cpp import Llama
 
 
+with open("cag_data/hackbattle_doc.txt", "r") as f:
+    raw_text = f.read()
 
-with open("cag_data/faq_raw.json", "r") as f:
-    faq_data = json.load(f)
 
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=200, chunk_overlap=50)
+chunks = text_splitter.split_text(raw_text)
 
 documents = [
     Document(
-        page_content=f"Q: {item['title']}\nA: {item['text']}",
-        metadata={"source": "faq", "question": item["title"]}
+        page_content=chunk,
+        metadata={"source": "hackbattle_doc"}
     )
-    for item in faq_data
+    for chunk in chunks
 ]
 
 
@@ -37,6 +39,7 @@ retriever = vector_store.as_retriever(search_kwargs={"k": 3})
 
 llm = Llama(
     model_path="/Users/Harsha/Library/Caches/llama.cpp/unsloth_gemma-3-270m-it-GGUF_gemma-3-270m-it-Q4_K_M.gguf",
+    temperature=0,
     n_ctx=2048,
     n_threads=8,
     n_batch=256,
@@ -47,6 +50,7 @@ llm = Llama(
 def get_llm_response(user_query, relevant_docs=None):
     if relevant_docs is None:
         relevant_docs = retriever.get_relevant_documents(user_query)
+        print(f"Retrieved {len(relevant_docs)} documents.")
 
     context = "\n".join([doc.page_content for doc in relevant_docs])
 
@@ -84,17 +88,10 @@ def chatbot(user_query):
     if cached_answer:
         return f"[CACHED] {cached_answer}"
 
-   
     relevant_docs = retriever.get_relevant_documents(user_query)
-    if relevant_docs:
-        answer = get_llm_response(user_query, relevant_docs)
-        update_cache(user_query, answer)
-        return f"[FAQ] {answer}"
-
-    # fallback (unlikely, since retriever always returns something)
-    llm_answer = get_llm_response(user_query, [])
-    update_cache(user_query, llm_answer)
-    return f"[LLM] {llm_answer}"
+    answer = get_llm_response(user_query, relevant_docs)
+    update_cache(user_query, answer)
+    return f"[FAQ] {answer}"
 
 
 
