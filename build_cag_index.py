@@ -15,7 +15,7 @@ answer_cache = {}
 def get_faq_answer(user_query, threshold=60):
     """checking all FAQ"""
     matches = process.extract(
-        user_query, faq_questions, scorer=fuzz.QRatio
+        user_query, faq_questions, scorer=fuzz.token_set_ratio, limit=5
     )
     results=[]
     for match, score, idx in matches:
@@ -57,18 +57,17 @@ def get_llm_response(user_query):
         User: What are the benefits of joining IEEE-CS VIT?
         You: Members get opportunities to participate in exclusive technical workshops, hackathons, industry collaborations, and access to IEEE resources for career development.
     """
-    prompt = f"You are a helpful assistant for a chapter at VIT Vellore called IEEE-CS that answers FAQs and engages in conversation with the user. Consider the following examples of past interactions:\n{fewShot_examples}\nNow, answer the user's question:\nUser: {user_query}\n  structure your response in 2 lines"
-
-    output = llm(prompt, max_tokens=256, stop=["User:", "You:"], echo=False)
+    prompt = f"You are a helpful assistant for a chapter at VIT Vellore called IEEE-CS that answers FAQs and engages in conversation with the user. Consider the following examples of past interactions:\n{fewShot_examples}\nNow, answer the user's question concisely in 2 lines:\nUser: {user_query}\nYou:"
+    output = llm(prompt, max_tokens=256, echo=False)
     return output["choices"][0]["text"].strip()
 
 def get_llm_response_with_context(user_query, relevant_faqs):
     """Query Gemma model with context from relevant FAQs."""
-    prompt = f"You are a helpful FAQ assistant for a chapter at VIT Vellore called IEEE-CS that answers FAQs and engages in conversation with the user. Use the following context to answer the user's question. If the answer is not in the context, say 'I don't know.' \n The users question and the correspodning context retrieved from database is as follows:\n\nUser's Question: {user_query}\n\nRelevant FAQs:"
+    prompt = f"You are a helpful FAQ assistant for a chapter at VIT Vellore called IEEE-CS that answers FAQs and engages in conversation with the user. Use ONLY the following context to answer the user's question. If the answer is not in the context, say 'I don't know.' The answer should be concise and in 2 lines.\n\nUser's Question: {user_query}\n\nRelevant FAQs:\n"
     for faq in relevant_faqs:
         prompt += f"- {faq['question']}: {faq['text']}\n"
-    prompt += "your response should be in 2 lines.\n\nAnswer the user's question based on the above context:\nUser: {user_query}\nAssistant:"
-    output = llm(prompt, max_tokens=256, stop=["User:", "You:"], echo=False)
+    prompt += f"\nAnswer the user's question based solely on the above context:\nUser: {user_query}\nAssistant:"
+    output = llm(prompt, max_tokens=256, echo=False)
     return output["choices"][0]["text"].strip()
 
 # -------------------------------
@@ -76,11 +75,13 @@ def get_llm_response_with_context(user_query, relevant_faqs):
 # -------------------------------
 def check_cache(query):
     """Check if query is already cached (exact match)."""
-    return answer_cache.get(query, None)
+    normalized_query = query.lower().strip()
+    return answer_cache.get(normalized_query, None)
 
 def update_cache(query, answer):
     """Save new answer into cache."""
-    answer_cache[query] = answer
+    normalized_query = query.lower().strip()
+    answer_cache[normalized_query] = answer
 
 def chatbot(user_query):
     # 1. Check cache first
