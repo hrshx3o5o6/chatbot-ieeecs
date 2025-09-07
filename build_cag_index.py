@@ -8,7 +8,7 @@ from llama_cpp import Llama
 from langchain_ollama import OllamaLLM
 
 
-with open("cag_data/hackbattle_doc.txt", "r") as f:
+with open("cag_data/hackbattle_doc_cleaned.txt", "r") as f:
     raw_text = f.read()
 
 
