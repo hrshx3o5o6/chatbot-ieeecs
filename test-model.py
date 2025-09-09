@@ -9,7 +9,7 @@ QUERY_ENDPOINT = "https://hrshx3o5o6--chatbot-ollama-cpu-serve-chatbotapicpu-que
 
 # Example question to test the model
 payload = {
-    "question": "what is hackbattle?"
+    "question": "Tell me about C2C hackathon"  
 }
 
 # Optional: headers if your endpoint requires JSON

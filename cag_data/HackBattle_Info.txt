@@ -1,0 +1,107 @@
+HackBattle 8.0 – Event Information
+
+Short Description
+HackBattle is a 36-hour overnight hackathon where innovators, creators, and problem-solvers collaborate to turn ideas into impactful solutions. Participants build projects tackling real-world challenges while learning and networking with industry leaders, mentors, and peers. Now in its 8th edition, HackBattle is a legacy event at VIT, known for its fresher-friendly environment, curated problem statements, and vibrant energy.
+
+Long Description
+HackBattle, organized by IEEE Computer Society (IEEE CS), VIT, is a 36-hour hackathon designed to push the limits of creativity, technology, and teamwork. This event brings together passionate students and developers to ideate, design, and build solutions aligned with curated problem statements. Teams focus on execution rather than struggling with ideation, ensuring meaningful and impactful projects.
+
+The hackathon includes workshops, tech talks, and panel discussions led by industry experts and mentors, covering cutting-edge technologies and career insights. With 600 participants and filler activities throughout the night, HackBattle fosters an atmosphere of collaboration and relentless innovation.
+
+Unique aspects of HackBattle:
+- Beginner Friendly: Ideal for freshers, with ample time to learn basics such as React, Node.js, FastAPI, and database management.
+- Career Value: Building a project in the first year can be showcased on LinkedIn and portfolios, helping with internships and placements.
+- Networking: A chance to connect with seniors, mentors, recruiters, and like-minded peers.
+- Legacy Event: Running successfully for 7 years, this 8th edition continues the tradition of being one of VIT’s most prestigious hackathons.
+- End-to-End Experience: From ideation to demo, the event provides the complete product-building journey.
+
+At its heart, HackBattle is a platform to celebrate innovation, teamwork, and the power of technology.
+
+Event Details
+- Number of Participants: 600
+- Entry Fee: ₹200 (excluding GST)
+- Team Size: 3–5 members
+- Category: Internal + External
+- Tagline: Less Talk, More Hack
+
+Rules and Regulations
+
+Team Formation
+- Team size: 3–5 members required
+- Solo participation is not allowed
+- Teams must register officially before the event
+- Participants can be from any background or discipline
+
+Project Development
+- All work must be done during the 36-hour window
+- Pre-built projects or existing codebases are not allowed
+- Open-source libraries and frameworks may be used with proper attribution
+- Projects must follow the problem statements/themes provided at the event
+- Both software and hardware projects are accepted
+- Hardware components must be arranged by participants; organizers will not provide them
+
+Code of Conduct
+- Plagiarism or copying from other teams leads to disqualification
+- Respectful behavior is mandatory
+- Participants must follow VIT’s code of conduct
+- Venue rules regarding safety, cleanliness, and discipline must be followed
+
+Logistics & Participation
+- Valid ID is required
+- Participants must bring their own laptops, hardware, and accessories
+- Internet and infrastructure will be provided
+- Participants must remain within the venue unless given permission
+
+Submissions & Deadlines
+- GitHub repository link must be shared at the start
+- All code must remain in the same repository; new repositories are not allowed
+- Late submissions are not accepted
+- Final submission must include:
+  - Complete source code in the repository
+  - Documentation/README file
+
+General Rules
+- Any rule violation may result in disqualification
+- Organizers may modify rules, schedules, or guidelines as required
+- By participating, teams allow organizers to showcase their projects
+
+Judging Criteria
+
+First Review – Idea & Feasibility (30%)
+- Problem Understanding (10%)
+- Innovation & Creativity (10%)
+- Feasibility & Planning (10%)
+
+Second Review – Progress & Implementation (40%)
+- Technical Implementation (15%)
+- Functionality (15%)
+- UI/UX & Design (5%)
+- Complexity (5%)
+
+Final Review – Demo & Impact (30%)
+- Completeness (10%)
+- Impact & Usefulness (10%)
+- Presentation & Demo (5%)
+- Complexity (5%)
+
+Scoring: 100 points total (30 + 40 + 30).
+Bonus +5 points for exceptional innovation, clean documentation, or strong team collaboration.
+
+Final Pitch Criteria
+- Problem & Solution Fit (20%)
+- Innovation & Creativity (15%)
+- Functionality & Technical Implementation (25%)
+- Impact & Usefulness (15%)
+- UI/UX & Design (10%)
+- Presentation & Demo (15%)
+
+About IEEE Computer Society, VIT
+The IEEE Computer Society, VIT, was established in February 2012 under IEEE Region 10, Madras Section. It is a student chapter that drives innovation by applying technology to solve real-world problems. Recognized globally for technical excellence, it shapes inquisitive minds and inspires future innovators.
+
+Key Projects
+- Kalaburagi Airport Project: Developed with the Airports Authority of India to streamline operations and enhance passenger experience.
+- TechKirti, IIT Kanpur: Achieved runners-up position, showcasing innovation and technical capability.
+- Chota Dhobi App: Used by 80,000+ students with 5,000 daily active users, ensuring efficient tracking, notifications, and record management for campus laundry services.
+
+About ARCS
+ARCS is the flagship event of IEEE Computer Society, VIT. It is a large-scale technology festival that celebrates innovation, collaboration, and the transformative power of technology. ARCS serves as a platform where visionaries, pioneers, and enthusiasts unite to build and showcase groundbreaking solutions. The two events under ARCS are - HackBattle and Cicada.

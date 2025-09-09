@@ -21,7 +21,7 @@ app = modal.App("build-faiss-index", image=image, volumes={MODEL_DIR: volume})
 @app.function()
 def build():
     print("🔄 Loading document...")
-    loader = TextLoader("/models/models/hackbattle_doc_cleaned.txt")
+    loader = TextLoader("/models/models/HackBattle_Info.txt")
     docs = loader.load()
     print(f"✅ Loaded {len(docs)} documents")
 
