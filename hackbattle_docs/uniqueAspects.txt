@@ -1,0 +1,6 @@
+Unique Aspects
+- Beginner Friendly: Ideal for freshers, with time to learn React, Node.js, FastAPI, and databases.
+- Career Value: Projects can be showcased on LinkedIn and portfolios, helping with internships and placements.
+- Networking: Connect with seniors, mentors, recruiters, and peers.
+- Legacy Event: Running successfully for 7 years, this 8th edition continues as one of VIT’s most prestigious hackathons.
+- End-to-End Experience: Covers the complete product journey from ideation to demo.

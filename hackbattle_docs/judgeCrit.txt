@@ -1,0 +1,29 @@
+Judging Criteria
+
+First Review – Idea & Feasibility (30%)
+- Problem Understanding (10%)
+- Innovation & Creativity (10%)
+- Feasibility & Planning (10%)
+
+Second Review – Progress & Implementation (40%)
+- Technical Implementation (15%)
+- Functionality (15%)
+- UI/UX & Design (5%)
+- Complexity (5%)
+
+Final Review – Demo & Impact (30%)
+- Completeness (10%)
+- Impact & Usefulness (10%)
+- Presentation & Demo (5%)
+- Complexity (5%)
+
+Total Score: 100 points
+Bonus: +5 points for exceptional innovation, documentation, or collaboration
+
+Final Pitch Criteria
+- Problem & Solution Fit (20%)
+- Innovation & Creativity (15%)
+- Functionality & Technical Implementation (25%)
+- Impact & Usefulness (15%)
+- UI/UX & Design (10%)
+- Presentation & Demo (15%)
