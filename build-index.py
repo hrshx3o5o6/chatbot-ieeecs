@@ -6,12 +6,14 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 
+# Note: every time you make changes to the txt files, make sure to change the references for the same in new_chunk_modal.py.
+
 # ---------------- Directories ----------------
 MODEL_DIR = Path("/models")  # persistent volume for FAISS index
      # mounted path inside container
 
 volume = modal.Volume.from_name("embedding-model-vol", create_if_missing=True)
-DOC_DIR = MODEL_DIR / "hackbattle_docs_new"
+DOC_DIR = MODEL_DIR / "hackbattle_docs_new_3" # change this every time you update the txt files
 
 # ---------------- Modal Image ----------------
 image = (
@@ -136,7 +138,7 @@ def build():
     print("🔄 Building FAISS index...")
     faiss_index = FAISS.from_texts(texts, embedding_model, metadatas=metadatas)
 
-    index_path = MODEL_DIR / "faiss_bge_index_newdocs_1"
+    index_path = MODEL_DIR / "faiss_bge_index_newdocs_3" # change this every time you update the txt files, this is where the FAISS index is stored.
     faiss_index.save_local(str(index_path))
 
     print(f"✅ FAISS index saved to {index_path}")

@@ -48,7 +48,7 @@ class ChatBawtIEEE:
         )
 
         # 2️⃣ Load FAISS index
-        index_path = MODEL_DIR / "faiss_bge_index_newdocs_1"
+        index_path = MODEL_DIR / "faiss_bge_index_newdocs_2"
         if not index_path.exists():
             raise FileNotFoundError(f"FAISS index not found at {index_path}")
         self.vector_store = FAISS.load_local(index_path, self.embedding_model, allow_dangerous_deserialization=True)
