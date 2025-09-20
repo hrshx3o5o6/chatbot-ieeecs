@@ -13,7 +13,7 @@ MODEL_DIR = Path("/models")  # persistent volume for FAISS index
      # mounted path inside container
 
 volume = modal.Volume.from_name("embedding-model-vol", create_if_missing=True)
-DOC_DIR = MODEL_DIR / "hackbattle_docs_new_3" # change this every time you update the txt files
+DOC_DIR = MODEL_DIR / "hackbattle_docs_new_4" # change this every time you update the txt files
 
 # ---------------- Modal Image ----------------
 image = (
@@ -47,7 +47,7 @@ questions = {
     "Is there OD for the hackathon?"
 ],
     "eventDetails.txt": [
-    "How many participants can join HackBattle?",
+    "Where is Hackbattle",
     "How much should I pay to enter?",
     "What is the entry fee for HackBattle?",
     "What is the team size for HackBattle?",
@@ -138,7 +138,7 @@ def build():
     print("🔄 Building FAISS index...")
     faiss_index = FAISS.from_texts(texts, embedding_model, metadatas=metadatas)
 
-    index_path = MODEL_DIR / "faiss_bge_index_newdocs_3" # change this every time you update the txt files, this is where the FAISS index is stored.
+    index_path = MODEL_DIR / "faiss_bge_index_newdocs_4" # change this every time you update the txt files, this is where the FAISS index is stored.
     faiss_index.save_local(str(index_path))
 
     print(f"✅ FAISS index saved to {index_path}")
