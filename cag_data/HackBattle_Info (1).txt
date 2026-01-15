@@ -1,0 +1,120 @@
+HackBattle 8.0 – Event Information
+
+Short Description
+HackBattle is a 36-hour overnight hackathon where innovators, creators, and problem-solvers collaborate to turn ideas into impactful solutions. Participants build projects tackling real-world challenges while learning and networking with industry leaders, mentors, and peers. Now in its 8th edition, HackBattle is a legacy event at VIT, known for its fresher-friendly environment, curated problem statements, and vibrant energy.
+
+Long Description
+HackBattle, organized by IEEE Computer Society (IEEE CS), VIT, is a 36-hour hackathon designed to push the limits of creativity, technology, and teamwork. The event brings together passionate students and developers to ideate, design, and build solutions aligned with curated problem statements. Teams focus on execution rather than struggling with ideation, ensuring meaningful and impactful projects.
+The hackathon includes workshops, tech talks, and panel discussions led by industry experts and mentors, covering cutting-edge technologies and career insights. With 600 participants and filler activities throughout the night, HackBattle fosters an atmosphere of collaboration and relentless innovation.
+On Duty (OD) will be provided to all participants. If you do not have a team, you can join the HackBattle Discord server (link in the navbar) to find teammates. Both external and internal (VIT Vellore students) can register through the official graVITas website: www.gravitas.vit.ac.in. Participants may leave midway for genuine reasons (quiz, assessment, health issues) after informing an organizing committee member.
+
+FAQ
+Q: What is HackBattle?
+A: HackBattle, organized by IEEE CS, is a dynamic 36-hour hackathon that goes beyond coding. It is a journey of teamwork, mentorship, and innovation where participants tackle real-world problems, attend workshops and tech talks, and network with industry leaders.
+
+Q: Do I need Minecraft to join?
+A: No. The Minecraft theme is just for fun. You do not need Minecraft installed or any prior experience with the game.
+
+Q: How do I register?
+A: Registration is through the official graVITas website. Teams of 3–5 members must be finalized before the event. Solo participation is not allowed.
+
+Q: Is HackBattle fresher-friendly?
+A: Yes. HackBattle is designed to support beginners as well as experienced developers, with mentorship, speaker sessions, and guidance.
+
+Q: What should I bring?
+A: Bring your laptop, charger, extension cord, and any hardware your project requires. Hardware will not be provided at the venue.
+
+Q: Is there a team size limit?
+A: Yes. Teams must have 3–5 members. Solo participation is not permitted.
+
+Unique Aspects
+- Beginner Friendly: Ideal for freshers, with time to learn React, Node.js, FastAPI, and databases.
+- Career Value: Projects can be showcased on LinkedIn and portfolios, helping with internships and placements.
+- Networking: Connect with seniors, mentors, recruiters, and peers.
+- Legacy Event: Running successfully for 7 years, this 8th edition continues as one of VIT’s most prestigious hackathons.
+- End-to-End Experience: Covers the complete product journey from ideation to demo.
+
+Event Details
+- Dates: 8 am, 24th Sept 2025 – 8 pm, 25th Sept 2025
+- Venue - Anna Auditorium
+- Participants: 600
+- Entry Fee: ₹200 (excluding GST)
+- Team Size: 3–5 members
+
+Rules and Regulations
+
+Team Formation
+- Teams of 3–5 members required
+- Solo participation not allowed
+- Teams must register on the HackBattle website
+- Members can be from any background our discipline 
+
+Project Development
+- All work must be done during the 36-hour window
+- Pre-built projects/codebases not allowed
+- Open-source libraries/frameworks allowed with attribution
+- Must align with event problem statements/themes
+- Software and hardware projects accepted
+- Hardware must be arranged by participants
+
+Code of Conduct
+- Plagiarism or copying leads to disqualification
+- Respectful behavior is mandatory
+- Must follow VIT’s code of conduct
+- Venue safety, cleanliness, and discipline rules must be followed
+
+Logistics & Participation
+- Valid ID required
+- Bring laptops, hardware, and accessories
+- Internet and infrastructure provided
+- Must remain in venue unless permitted
+
+Submissions & Deadlines
+- GitHub repo link shared at start
+- All code must remain in the same repo
+- No late submissions
+- Final submission must include complete source code and documentation
+
+General Rules
+- Rule violations may result in disqualification
+- Organizers may modify rules or schedules
+- Participation allows organizers to showcase projects
+
+Judging Criteria
+
+First Review – Idea & Feasibility (30%)
+- Problem Understanding (10%)
+- Innovation & Creativity (10%)
+- Feasibility & Planning (10%)
+
+Second Review – Progress & Implementation (40%)
+- Technical Implementation (15%)
+- Functionality (15%)
+- UI/UX & Design (5%)
+- Complexity (5%)
+
+Final Review – Demo & Impact (30%)
+- Completeness (10%)
+- Impact & Usefulness (10%)
+- Presentation & Demo (5%)
+- Complexity (5%)
+
+Total Score: 100 points
+Bonus: +5 points for exceptional innovation, documentation, or collaboration
+
+Final Pitch Criteria
+- Problem & Solution Fit (20%)
+- Innovation & Creativity (15%)
+- Functionality & Technical Implementation (25%)
+- Impact & Usefulness (15%)
+- UI/UX & Design (10%)
+- Presentation & Demo (15%)
+
+About IEEE Computer Society, VIT
+Established in February 2012 under IEEE Region 10 (Madras Section), the IEEE Computer Society, VIT, is a student chapter that drives innovation through technology. It is globally recognized for technical excellence and inspires future innovators.
+
+About ARCS
+ARCS is the flagship event of IEEE CS, VIT. It is a large-scale technology festival celebrating innovation and collaboration. ARCS includes two main events:
+- HackBattle
+- Cicada
+

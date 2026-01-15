@@ -1,0 +1,15 @@
+FAQ
+Q: What is HackBattle?
+A: HackBattle, organized by IEEE CS, is a dynamic 36-hour hackathon that goes beyond coding. It is a journey of teamwork, mentorship, and innovation where participants tackle real-world problems, attend workshops and tech talks, and network with industry leaders.
+
+Q: How do I register?
+A: Registration is through the official graVITas website. Teams of 3–5 members must be finalized before the event. Solo participation is not allowed.
+
+Q: Is HackBattle fresher-friendly?
+A: Yes. HackBattle is designed to support beginners as well as experienced developers, with mentorship, speaker sessions, and guidance.
+
+Q: What should I bring?
+A: Bring your laptop, charger, extension cord, and any hardware your project requires. Hardware will not be provided at the venue.
+
+Q: Is there a team size limit?
+A: Yes. Teams must have 5 members. Solo participation is not permitted.

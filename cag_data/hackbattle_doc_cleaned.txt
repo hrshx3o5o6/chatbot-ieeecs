@@ -1,0 +1,97 @@
+Event Description (short) :
+HackBattle is a dynamic 36-hour hackathon where innovators, creators, and problem-solvers come together to code, collaborate, and compete. This overnight coding marathon is a fast-paced journey of turning ideas into reality, tackling real-world challenges, and building impactful solutions that push creativity and technical skill to the next level. Alongside the competition, participants will enjoy inspiring sessions from industry leaders, offering expert insights, practical guidance, and valuable networking. More than just an event, HackBattle is a vibrant celebration of innovation, teamwork, and the unstoppable energy of technology.
+No. of Participants : 600
+Entry Fee : 200 (without gst)
+Team size : 3-5 members
+Event Category : Both (Internal and External)
+Event Tagline : Less talk, more Hack.
+Event description (long) :
+HackBattle, organized by IEEE Computer Society (IEEE CS), is a dynamic 36-hour hackathon that brings together innovators, passionate creators, and problem-solvers under one roof. More than a coding marathon, it is a transformative journey where participants push the limits of creativity, technology, and teamwork.
+Throughout this thrilling overnight experience, students and professionals work tirelessly to turn ideas into reality, tackling real-world problem statements that demand innovative and practical solutions. Teams ideate, design, and build projects that not only highlight technical excellence but also create meaningful social impact.
+What makes HackBattle unique is its balance of competition and collaboration. While teams aim to excel with their projects, the event also fosters a culture of knowledge-sharing and support. Participants engage with mentors, industry leaders, and experts to gain insights into emerging technologies, best practices, and career growth opportunities.
+Alongside the hackathon, workshops, tech talks, and panel discussions provide guidance and inspiration, encouraging participants to think bigger and bolder. HackBattle also serves as a networking platform, connecting aspiring innovators with peers, mentors, recruiters, and sponsors.
+At its heart, HackBattle celebrates innovation, teamwork, and the energy of technology, a space where ideas take flight and tomorrows leaders emerge.
+Rules and Regulations:
+1. Team Formation
+* Team Size: 35 members required
+* Solo participation is NOT permitted
+* Teams must complete official registration before the event begins
+* Participants can be from any background or discipline
+2. Project Development
+* All coding and development must occur within the 36-hour hackathon window
+* Pre-built projects or existing codebases are strictly prohibited
+* Open-source libraries, frameworks, and tools are permitted with proper attribution
+* Projects must align with the problem statements/themes announced at the event start
+* Both software and hardware projects are welcome
+* Hardware components/devices will NOT be provided  teams must arrange their own
+3. Code of Conduct
+* Zero tolerance for plagiarism or copying code from other teams (results in immediate disqualification)
+* Respectful conduct is mandatory
+* Students should follow VIT code of conduct.
+* All participants must adhere to venue guidelines including safety, cleanliness, and discipline
+4. Logistics & Participation
+* Valid ID required for all participants
+* Teams must bring their own laptops, hardware components, and accessories
+* Internet and basic infrastructure will be provided (for on-site events)
+* Participants must remain within the venue throughout the event unless given permission by organizers
+5. Submissions & Deadlines
+* GitHub repository link must be shared at the beginning of the hackathon
+* All work must be committed to the same initial repository  no new repositories accepted
+* Late submissions will NOT be accepted
+* Final Submission Must Include:
+* Complete source code in the designated repository
+* Documentation/README file
+6. General Rules
+* Any rule violation may result in disqualification
+* Organizers reserve the right to modify rules, schedules, or guidelines as necessary
+* By participating, teams grant organizers the right to showcase their projects on official platforms
+Judging Criteria (for each review)
+1. First Review  Idea & Feasibility (30%)
+Focus: Early-stage clarity and plan.
+- Problem Understanding (10%)  Do they clearly understand the problem statement?
+- Innovation & Creativity (10%)  Is the approach novel, not just a copy of existing solutions?
+- Feasibility & Planning (10%)  Do they have a clear roadmap, realistic timeline, and defined features for the hackathon duration?
+2. Second Review  Progress & Implementation (40%)
+Focus: Technical execution and actual progress.
+- Technical Implementation (15%)  Code quality, architecture, use of appropriate tech stack.
+- Functionality (15%)  How much of the core solution is working by now?
+- UI/UX & Design (5%)  Is the product usable, intuitive, and user-friendly?
+- Complexity (5%)  Level of difficulty in implementation (use of advanced technologies, integrations, scalability, or solving non-trivial challenges).
+3. Final Review  Demo & Impact (30%)
+Focus: Final product and presentation.
+- Completeness (10%)  How much of the planned solution is delivered?
+- Impact & Usefulness (10%)  Does the solution actually solve the problem effectively? Can it scale?
+- Presentation & Demo (5%)  How well did they explain and showcase their solution?
+- Complexity (5%)  How advanced/technically challenging is the final working product compared to other submissions?
+- Scoring System
+- 100-point scale (30 + 40 + 30 across 3 reviews).
+- Bonus section (+5 points) for:
+- Exceptional innovation
+- Clean documentation
+- Team collaboration
+Final Selection
+- After 3 reviews, rank teams based on total score.
+- Select top 15 teams for final pitches.
+- Prioritize innovation & impact over polish if tie.
+Final Pitch Judging Criteria
+1. Problem & Solution Fit (20%)
+- How well do they articulate the problem?
+- Does the solution directly and effectively address it?
+2. Innovation & Creativity (15%)
+- Is the approach unique compared to existing solutions?
+- Are there novel features/ideas that stand out?
+3. Functionality & Technical Implementation (25%)
+- Is the product working end-to-end?
+- How robust, scalable, and technically sound is the solution?
+- Does the tech stack match the problem?
+4. Impact & Usefulness (15%)
+- Does this solution create real-world value?
+- Is it practical, scalable, and sustainable?
+- Who benefits from it (end users / society / businesses)?
+5. UI/UX & Design (10%)
+- Is the interface clean, user-friendly, and intuitive?
+- Is the user journey smooth?
+6. Presentation & Demo (15%)
+- Clear, confident, and engaging pitch.
+- Well-structured demo that shows the solutions best features.
+- Ability to answer judges questions effectively.

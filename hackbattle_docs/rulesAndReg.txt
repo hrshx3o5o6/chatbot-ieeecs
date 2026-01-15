@@ -1,0 +1,41 @@
+Rules and Regulations
+
+Team Formation
+- Teams of 5 members required
+- Solo participation not allowed
+- Teams must register on the HackBattle website
+- Team members can be from any branch 
+
+Project Development
+- All work must be done during the 36-hour window. 
+- You cannot start working before hackathon starts
+- Pre-built projects/codebases not allowed
+- Open-source libraries/frameworks allowed with attribution
+- Must align with event problem statements/themes
+- Software and hardware projects accepted
+- Hardware must be arranged by participants
+
+Code of Conduct
+- Plagiarism or copying leads to disqualification
+- Respectful behavior is mandatory
+- Must follow VIT’s code of conduct
+- Venue safety, cleanliness, and discipline rules must be followed
+- You can bring your own snacks and beverages, but can consume only outside the venue
+- Please ensure that they do not pose any safety or cleanliness issues.
+
+Logistics & Participation
+- Bring your college ID card 
+- Bring laptops, hardware, and accessories
+- Internet and infrastructure provided
+- Must remain in venue unless permitted
+
+Submissions & Deadlines
+- GitHub repo link shared at start
+- All code must remain in the same repo
+- No late submissions
+- Final submission must include complete source code and documentation
+
+General Rules
+- Rule violations may result in disqualification
+- Organizers may modify rules or schedules
+- Participation allows organizers to showcase projects

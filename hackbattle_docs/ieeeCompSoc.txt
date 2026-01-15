@@ -1,0 +1,8 @@
+About IEEE Computer Society
+Established in February 2012 under IEEE Region 10 (Madras Section), the IEEE Computer Society is a student chapter that drives innovation through technology. It is globally recognized for technical excellence and inspires future innovators.
+
+About ARCS
+ARCS is the flagship event of IEEE CS. It is a large-scale technology festival celebrating innovation and collaboration. ARCS includes two main events:
+- HackBattle
+- Cicada
+
